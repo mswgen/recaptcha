@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>reCAPTCHA demo: Explicit render after an onload callback</title>
+    <script src='./script.js'></script>
+    <script src="https://www.google.com/recaptcha/api.js?onload=onloadCallback&render=explicit" async defer></script>
+  </head>
+  <body>
+      <p>
+          <div id="html_element"></div>
+      </p>
+      <p>
+          <input type="button" value="완료" onclick="
+            done();
+          ">
+      </p>
+    
+  </body>
+</html>
