@@ -7,7 +7,7 @@ var yes = false;
           }
         });
       };
-var yes = function(){
+var done = function(){
     if(yes){
         location.href = 'https://discordapp.com';
     }
