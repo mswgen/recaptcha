@@ -2,6 +2,7 @@ var yes = false;
       var onloadCallback = function() {
         grecaptcha.render('html_element', {
           'sitekey' : '6LfdkOEUAAAAAHZQhQujPAnVqMQp177OZBO2vc3M',
+          'theme' : 'dark',
           'callback': function(){
               yes = true;
           }
